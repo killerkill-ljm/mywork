@@ -1,0 +1,60 @@
+heart {
+    display: block;
+    /* width: 30px;
+    height: 30px;  */
+    background-image:url(./assets/first/snow.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    transition-property: top;
+    transition-duration: 15s;
+    transition-timing-function: linear;
+    top: -31px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+a:hover{
+    color:yellow;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.hidden{
+    display:none;
+}
+
+.center{
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    margin:auto;
+}
+
+.white{
+    background:white;
+}
+
+.commonWidth{
+    width:1150px;
+    margin:auto;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    color:rgba(0,0,0,0.5)
+}
+
+a:hover{
+    color:black;
+}
